@@ -8,6 +8,9 @@
   --tertiary-color: black;
 }
 
+.container {
+  margin-bottom: 20px;
+}
 textarea {
   background: transparent;
   border: none;
@@ -65,7 +68,7 @@ textarea {
   border-left: 1px solid var(--tertiary-color);;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: (var --seconday-color);
+  background-color: var(--seconday-color);
   color: var(--primary-color);
 }
 
