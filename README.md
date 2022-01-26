@@ -21,6 +21,7 @@ A simple calendar application that allows a user to save events for each hour of
 * jQuery UI
 * Google Fonts
 * Bootstrap
+* Font Awesome
 
 ![Work Day Planner website screenshot](./Assets/images/work-day-planner.png)
 
