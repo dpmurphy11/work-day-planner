@@ -42,18 +42,3 @@ function handleSave(event) {
     // save to local storage
     localStorage.setItem($(this).parent().children().attr('id'), $(this).parent().children('.description').val().trim());
 };
-
-// const settings = {
-// 	"async": true,
-// 	"crossDomain": true,
-// 	"url": "https://api-nba-v1.p.rapidapi.com/games/teamId/26",
-// 	"method": "GET",
-// 	"headers": {
-// 		"x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
-// 		"x-rapidapi-key": "0ea8192811msh70fba6f7f64f1e4p11b8b9jsnb91a12aad193"
-// 	}
-// };
-
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// });
